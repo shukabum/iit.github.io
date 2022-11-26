@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Map</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/mapstyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      
+        <header >
+
+       
+            <nav class="back">
+                <div class="heads" id="Head">
+                    <h1 class="txt animate__animated animate__backInRight">M<text class="sap">a</text>P<text class="sap"> O</text>Ut</h1>
+                </div>
+            
+
+            </nav>
+            <div class="main">
+                <section >
+                    <div class="animate__animated animate__fadeIn">
+                        <p1 class="center_text">"Welcome to the R-land"</p1>
+                    
+                    </div>
+                </section>
+            </div>
+        </header>
+        
+
+        <script type="text/javascript">
+            var header=document.getElementById("Head");
+            var sap=document.getElementById("sap");
+            window.onscroll=function()
+            {
+                if(window.pageYOffset >= sap.offsetTop)
+                {
+                    header.classList.add("sticky");
+                }
+                else 
+                {
+                    header.classList.remove("sticky");
+                }
+            }
+        </script>
+
+    
+    
+    </body>
+</html>

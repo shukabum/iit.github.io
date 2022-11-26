@@ -1,0 +1,53 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+.heads{
+    width: 100%; height: 100vh;
+    background: url(../images/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    justify-content: center;
+    font-family: 'Aboreto', cursive;
+    font-size:30px;
+    display: flex;
+    color: rgb(167, 103, 7);
+    font-weight: 200;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black ;
+}
+.txt{
+    margin-top: 20px;
+}
+.sap{
+    color:rgb(215, 145, 59);
+}
+.saps{
+    color: rgb(167, 103, 7);
+}
+.main{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color:wheat;
+    font-family: 'Aboreto', cursive;
+}
+section p1{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px; font-weight:200; letter-spacing: normal;
+    color: rgb(238, 206, 148);
+    text-shadow: 3px 3px 2px black;
+    text-align: center;
+    justify-content: center;
+}
+nav.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 8%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    transition: padding 0.5s;
+}
