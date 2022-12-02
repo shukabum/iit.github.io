@@ -146,8 +146,10 @@ section a{
 }
 @keyframes changetext {
     0%{content:"Fresher";}
-    50%{content:"Sophomore";}
-    100%{content:"Alumni";}
+    25%{content:"Sophomore";}
+    50%{content:"Alumni";}
+    75%{content:"Faculty";}
+    100%{content:"Staff";}
     
 }
 .icons{
