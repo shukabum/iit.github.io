@@ -23,6 +23,12 @@ header{
     background-size: contain;
     display: flex;
 }
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display:none;
+}
 nav{
     height: 15vh; width: 100%; 
     background: rgba(0,0,0,.1);
