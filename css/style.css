@@ -34,6 +34,7 @@ nav{
     background: rgba(0,0,0,.1);
     color: white;display: flex;justify-content: space-between;
     align-items: center; text-transform: uppercase;
+    z-index: 1  ;
 }
 
 .logo{
@@ -222,8 +223,8 @@ nav.sticky{
     padding: 10px 8%;
     display: flex;
     align-items:center;
-    justify-content: space-around;
-    transition: padding 0.5s;
+    justify-content: space-evenly;
+    transition:  0.5s;
     background-color: black;
     
 }
